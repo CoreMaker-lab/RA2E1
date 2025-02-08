@@ -127,7 +127,7 @@ The GPT (General Purpose Timer) module is a high-precision timer used for counti
 This article will provide a detailed explanation of how to adjust the frequency and duty cycle using the GPT timer's API, building on the previous chapter. It will also explain the key concepts and settings methods related to these adjustments.
 
 
-- **RA2E1_project9**e2studio开发RA2E1(9)----定时器GPT配置输入捕获
+- **RA2E1_project9**:e2studio开发RA2E1(9)----定时器GPT配置输入捕获
 - **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/145463144](https://coremaker.blog.csdn.net/article/details/145463144)
 - **Video**:[https://www.bilibili.com/video/BV1QrP1ejEAZ/](https://www.bilibili.com/video/BV1QrP1ejEAZ/)
 
