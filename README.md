@@ -43,17 +43,98 @@
 
 
 
+# Project Introduction
+- **RA2E1_project1**:e2studio开发RA2E1(1)---开发板测试
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/144655867](https://coremaker.blog.csdn.net/article/details/144655867)
+- **Video**:[https://www.bilibili.com/video/BV1pWCMYrEbz/](https://www.bilibili.com/video/BV1pWCMYrEbz/)
+
+RA2E1 评估套件可以使用户能够无缝评估 RA2E1 系列LQFP48 封装的微控制器功能，基于 ARM Cortex-M23 内核，具有高效能和低功耗的特点。它适用于各种嵌入式系统，特别是对功耗和成本有较高要求的应用。
+
+这里通过配置LED和UART输出进行简单测试。
+
+The RA2E1 evaluation kit enables users to seamlessly evaluate the functionality of the RA2E1 series microcontroller in an LQFP48 package, based on the ARM Cortex-M23 core, offering high performance and low power consumption. It is suitable for various embedded systems, particularly applications with high demands for power efficiency and cost-effectiveness.
+
+A simple test is conducted here by configuring LED and UART output.
 
 
 
 
+- **RA2E1_project2**:e2studio开发RA2E1(2)---Programmer烧录程序
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/144938334](https://coremaker.blog.csdn.net/article/details/144938334)
+- **Video**:[https://www.bilibili.com/video/BV1jcCYYeEKK/](https://www.bilibili.com/video/BV1jcCYYeEKK/)
+
+Renesas Flash Programmer是一款支持开发和批量生产阶段写入的软件，具有简单的 GUI，即使是初学者也能简单操作进行写入。
+运行环境支持Windows、Linux、macOS。
+这里使用Renesas Flash Programmer软件进行下载。
+
+Renesas Flash Programmer is a software tool that supports programming during both the development and mass production stages, featuring a simple GUI that even beginners can easily use for programming.
+It supports operating environments including Windows, Linux, and macOS.
+Here, we use the Renesas Flash Programmer software for downloading.
 
 
 
+- **RA2E1_project3**:e2studio开发RA2E1(3)---使用J-Link或EZ-CUBE3烧录程序
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/144938351](https://coremaker.blog.csdn.net/article/details/144938351)
+- **Video**:[https://www.bilibili.com/video/BV1DjCvYcETV](https://www.bilibili.com/video/BV1DjCvYcETV)
+
+这一节主要讲解如何使用J-Link或EZ-CUBE3对瑞萨RA芯片进行烧录。
+
+This section primarily explains how to use J-Link or EZ-CUBE3 to program Renesas RA chips.
+
+- **RA2E1_project4**:e2studio开发RA2E1(4)----GPIO输出
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/145430794](https://coremaker.blog.csdn.net/article/details/145430794)
+- **Video**:[https://www.bilibili.com/video/BV1D9PQeaECa/](https://www.bilibili.com/video/BV1D9PQeaECa/)
+
+本篇文章主要介绍如何使用e2studio对瑞萨单片机进行GPIO输出，并以LED显示。
+This article primarily explains how to use e2studio to perform GPIO output on Renesas microcontrollers, with an LED display as an example.
 
 
+- **RA2E1_project5**:e2studio开发RA2E1(5)----GPIO输入检测
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/145431876](https://coremaker.blog.csdn.net/article/details/145431876)
+- **Video**:[https://www.bilibili.com/video/BV1oxPReEEUW/](https://www.bilibili.com/video/BV1oxPReEEUW/)
+
+本篇文章主要介绍如何使用e2studio对瑞萨单片机进行GPIO输入检测。
+
+This article primarily explains how to use e2studio to perform GPIO input detection on Renesas microcontrollers.
 
 
+- **RA2E1_project6**:e2studio开发RA2E1(6)----GPIO外部中断（IRQ）配置
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/145443584](https://coremaker.blog.csdn.net/article/details/145443584)
+- **Video**:[https://www.bilibili.com/video/BV1dPNAevEFj/](https://www.bilibili.com/video/BV1dPNAevEFj/)
+
+GPIO（通用输入/输出）引脚作为嵌入式系统的基本接口，可以用于信号输入、输出以及事件检测。GPIO外部中断（IRQ）是一种常见的硬件中断配置，通过在特定引脚上检测信号的变化（例如上升沿或下降沿）来触发中断响应。这种机制在按钮按压、传感器信号输入等场景中尤为常用，可实现低延迟的事件捕获与处理。
+
+GPIO (General Purpose Input/Output) pins serve as fundamental interfaces in embedded systems, allowing for signal input, output, and event detection. GPIO external interrupts (IRQ) are a common hardware interrupt configuration that triggers an interrupt response by detecting changes in signal states (such as rising or falling edges) on specific pins. This mechanism is particularly useful in scenarios like button presses or sensor signal inputs, enabling low-latency event capture and processing.
+
+- **RA2E1_project7**:e2studio开发RA2E1(7)----定时器GPT输出PWM
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/145462910](https://coremaker.blog.csdn.net/article/details/145462910)
+- **Video**:[https://www.bilibili.com/video/BV1rAP2ewEFG/](https://www.bilibili.com/video/BV1rAP2ewEFG/)
+
+GPT（通用 PWM 计时器）模块是一个高精度定时器，用于计数事件、测量外部输入信号、生成周期性中断，或输出周期性信号/PWM 信号到 GTIOC 引脚。它广泛应用于定时控制、信号测量、PWM 生成等应用，尤其适用于电机控制、LED 调光、PWM 伺服驱动和 ADC 触发等场景。
+
+The GPT (General Purpose Timer) module is a high-precision timer used for counting events, measuring external input signals, generating periodic interrupts, or outputting periodic signals/PWM signals to the GTIOC pins. It is widely used in applications such as timing control, signal measurement, and PWM generation, and is particularly suitable for scenarios like motor control, LED dimming, PWM servo driving, and ADC triggering.
+
+- **RA2E1_project8**:e2studio开发RA2E1(8)----GPT定时器频率与占空比的设置
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/145463012](https://coremaker.blog.csdn.net/article/details/145463012)
+- **Video**:[https://www.bilibili.com/video/BV1NRP1eBE5B/](https://www.bilibili.com/video/BV1NRP1eBE5B/)
+
+
+GPT（通用 PWM 计时器）模块是一个高精度定时器，用于计数事件、测量外部输入信号、生成周期性中断，或输出周期性信号/PWM 信号到 GTIOC 引脚。它广泛应用于定时控制、信号测量、PWM 生成等应用，尤其适用于电机控制、LED 调光、PWM 伺服驱动和 ADC 触发等场景。
+本文将详细介绍如何上一章基础上通过GPT定时器的API调整频率和占空比，并解释相关的关键概念和设置方法。
+
+The GPT (General Purpose Timer) module is a high-precision timer used for counting events, measuring external input signals, generating periodic interrupts, or outputting periodic signals/PWM signals to the GTIOC pins. It is widely used in applications such as timing control, signal measurement, and PWM generation, and is particularly suitable for scenarios like motor control, LED dimming, PWM servo driving, and ADC triggering.
+
+This article will provide a detailed explanation of how to adjust the frequency and duty cycle using the GPT timer's API, building on the previous chapter. It will also explain the key concepts and settings methods related to these adjustments.
+
+
+- **RA2E1_project9**e2studio开发RA2E1(9)----定时器GPT配置输入捕获
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/145463144](https://coremaker.blog.csdn.net/article/details/145463144)
+- **Video**:[https://www.bilibili.com/video/BV1QrP1ejEAZ/](https://www.bilibili.com/video/BV1QrP1ejEAZ/)
+
+本文将探讨如何在 Renesas RA 系列微控制器上使用 GPT（通用定时器）模块来配置输入捕获功能。输入捕获是定时器的一项重要功能，它允许我们捕获外部信号（如脉冲或波形）的时间戳，广泛应用于频率计数、脉冲宽度测量以及其他需要精确时间记录的应用。
+
+
+This article will explore how to use the GPT (General Purpose Timer) module on Renesas RA series microcontrollers to configure the input capture functionality. Input capture is an important feature of timers that allows us to capture timestamps of external signals, such as pulses or waveforms. It is widely used in applications like frequency counting, pulse width measurement, and other scenarios that require precise time recording.
 
 
 
