@@ -210,7 +210,62 @@ By leveraging e²studio, we can easily configure the RTC on Renesas microcontrol
 本篇文章主要介绍如何使用e2studio对瑞萨单片机进行ADC单通道采集电压。
 
 
+This article focuses on how to use e²studio to configure and perform single-channel ADC voltage acquisition on a Renesas microcontroller.
+
+- **RA2E1_project17**:e2studio开发RA2E1(17)---- ADC扫描多通道采样
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146028047](https://coremaker.blog.csdn.net/article/details/146028047)
+- **Video**:[https://www.bilibili.com/video/BV1y7XRYeEBw/](https://www.bilibili.com/video/BV1y7XRYeEBw/)
+
+在嵌入式系统中，ADC（模数转换器）是一个非常重要的组件，它将模拟信号转换为数字信号。为了提高采样效率和扩展应用，瑞萨MCU支持多通道扫描模式，允许同时采集多个模拟信号。在本文中，将在上篇文章基础上探讨如何配置ADC模块进行多通道扫描，并采集来自不同的输入模拟信号。
+
+In embedded systems, the ADC (Analog-to-Digital Converter) is a crucial component that converts analog signals into digital signals. To improve sampling efficiency and expand application scenarios, Renesas MCUs support multi-channel scan mode, allowing simultaneous acquisition of multiple analog signals.
+
+Building on the previous article, this article explores how to configure the ADC module for multi-channel scanning and collect data from different analog input signals.
+
+- **RA2E1_project18**:e2studio开发RA2E1(18)----看门狗WDT
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146028292](https://coremaker.blog.csdn.net/article/details/146028292)
+- **Video**:[https://www.bilibili.com/video/BV1uG9hYyEQe/](https://www.bilibili.com/video/BV1uG9hYyEQe/)
 
 
+本文主要阐述了如何借助e2studio工具对瑞萨独立看门狗WDT进行配置设置，同时设置RTC时钟产生每秒的周期性中断，并通过串口输出观察独立看门狗IWDT的计数情况。主要介绍 RA 系列 MCU 的看门狗定时器（WDT），包括其功能、配置方法、API 说明及示例代码。看门狗定时器主要用于检测系统异常，防止程序陷入死循环或卡死，从而 提高系统稳定性。
+看门狗定时器（WDT）是一种超时保护机制，当 MCU 在一定时间内没有刷新（喂狗）时，WDT 会触发系统 复位 或 中断，确保系统能够恢复运行。
 
+This article explains how to configure and set up the Independent Watchdog Timer (IWDT) on a Renesas MCU using the e²studio tool. It also covers configuring the RTC clock to generate periodic one-second interrupts and observing the IWDT counter through serial output.
+
+The article primarily introduces the Watchdog Timer (WDT) in the RA series MCUs, including its functionality, configuration methods, API usage, and example code. The WDT is designed to detect system anomalies and prevent the program from getting stuck in infinite loops or crashes, thereby improving system stability.
+
+The Watchdog Timer (WDT) is an overflow protection mechanism that triggers a system reset or interrupt when the MCU fails to refresh (feed the watchdog) within a specified time, ensuring the system can recover and continue operation.
+
+
+- **RA2E1_project19**:e2studio开发RA2E1(19)----独立看门狗IWDT
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146028846](https://coremaker.blog.csdn.net/article/details/146028846)
+- **Video**:[https://www.bilibili.com/video/BV1AS9aYMEXt/](https://www.bilibili.com/video/BV1AS9aYMEXt/)
+
+本文主要阐述了如何借助e2studio工具对瑞萨独立看门狗IWDT进行配置设置，同时设置RTC时钟产生每秒的周期性中断，并通过串口输出观察独立看门狗IWDT的计数情况。
+配置看门狗定时器以提高系统稳定性，防止系统长时间处于死循环。
+
+
+This article explains how to configure the Independent Watchdog Timer (IWDT) on a Renesas MCU using the e²studio tool. It also covers setting up the RTC clock to generate periodic one-second interrupts and using serial output to monitor the IWDT counter.
+
+Configuring the watchdog timer helps enhance system stability by preventing the system from getting stuck in infinite loops for an extended period.
+
+
+- **RA2E1_project20**:e2studio开发RA2E1(20)----电容触摸配置(1)
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146029174](https://coremaker.blog.csdn.net/article/details/146029174)
+- **Video**:[https://www.bilibili.com/video/BV17e96YnE6d/](https://www.bilibili.com/video/BV17e96YnE6d/)
+
+
+这篇文档将创建一个使用 e2 studio 集成 QE 的电容式触摸应用示例，通过触摸按键进行LED点亮。
+
+This document will demonstrate how to create a capacitive touch application using e² studio integrated with QE. The example will implement touch key control to toggle an LED.
+
+
+- **RA2E1_project21**:e2studio开发RA2E1(21)----电容触摸配置(2)
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/146029344](https://coremaker.blog.csdn.net/article/details/146029344)
+- **Video**:[https://www.bilibili.com/video/BV1Ht96YsENU](https://www.bilibili.com/video/BV1Ht96YsENU)
+
+这篇文档将在上篇文章基础上修改电容触摸配置。
+
+
+This document builds upon the previous article to modify the capacitive touch configuration.
 
